@@ -131,6 +131,18 @@ img {
   padding-top: 72px;
 }
 
-@media screen {
+@media screen and (max-width:600px) {
+  .container_right, .container_left {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  .foto1, .foto2, .foto3 {
+    display: block;
+    width: 100%;
+  }
+}
+{
   
 }
+
